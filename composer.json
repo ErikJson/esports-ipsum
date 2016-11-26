@@ -1,0 +1,32 @@
+{
+  "name": "knugen/esports-ipsum",
+  "description": "An esports themed placeholder text generator",
+  "type": "library",
+  "require": {
+    "enricoghdn/markov": "^0.1.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Erik Johansson",
+      "email": "erik@gosu.se"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Knugen\\EsportsIpsum\\": [
+        "src/"
+      ]
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Knugen\\EsportsIpsum\\": [
+        "tests/"
+      ]
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.6"
+  }
+}
